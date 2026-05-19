@@ -1,0 +1,10 @@
+<div class="padre">
+<h2>Lista de usuarios</h2>
+
+<div *ngFor="let u of usuarios">
+  <button [routerLink]="['/usuarios', u.id]">
+   {{u.id}} {{ u.nombre }} {{u.apellido}}
+  </button>
+</div>
+</div>
+

@@ -1,0 +1,26 @@
+.padre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    animation: flotar 0.5s ease-in-out infinite;
+}
+@keyframes flotar{
+0% {transform: translateY(0px);}
+50% {transform: translateY(-2px);}
+100% {transform: translateY(0px);}
+
+
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+     background: linear-gradient(1deg, rgb(0, 234, 255),rgb(215, 131, 12));
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid ;
+    box-shadow: 1px 1px 10px 1px;
+}

@@ -1,0 +1,33 @@
+.padre{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    justify-content: center;
+    
+    
+    
+}
+.d{
+    
+}
+
+button{
+margin-left:20px;
+height: 30px;
+width: 80px;
+background:linear-gradient(1deg, red,rgba(0, 0, 0, 0.525));
+border: 1px solid;
+box-shadow: 1px 1px 15px 1px;
+border-radius: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+animation: flotar 0.5s ease-in-out infinite;
+}
+
+@keyframes flotar{
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-2px);}
+    100% {transform: translateY(0px);}
+}
+.dif{
+    background: linear-gradient(1deg, rgb(85, 238, 3),rgba(0, 0, 0, 0.604));
+}

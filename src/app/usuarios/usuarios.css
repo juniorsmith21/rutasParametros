@@ -1,0 +1,24 @@
+.padre{
+    display: flex;
+    gap: 45px;
+    text-align: center;
+    justify-content: center;
+    animation: flotar 0.5s ease-in-out infinite;
+}
+@keyframes flotar{
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(-2px);}
+    100% {transform: translateY(0px);}
+}
+.a{
+    background: linear-gradient(1deg, rgb(0, 234, 255),rgb(215, 131, 12));
+    margin-top: 60px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid;
+    box-shadow: 1px 1px 10px 1px ;
+}
